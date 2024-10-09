@@ -1,0 +1,62 @@
+.dashboard {
+    flex: 1;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header input {
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: white;
+  }
+  
+  header .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .user {
+    margin-left: 10px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .trending, .top-coins, .history {
+    margin-bottom: 20px;
+  }
+  
+  .top-coins {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top-coins .coin {
+    background-color: #333;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+  }
+  
+  .coin h4 {
+    font-size: 18px;
+  }
+  
+  .coin p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .coin span {
+    color: green;
+  }
+  

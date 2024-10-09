@@ -1,0 +1,43 @@
+.sidebar {
+    width: 250px;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar h2 {
+    padding: 20px;
+    font-size: 24px;
+    color:green;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar ul li svg {
+    margin-right: 10px;
+  }
+  
+  .logout {
+    padding: 20px;
+  }
+  
+  .logout button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff3d00;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
