@@ -1,4 +1,4 @@
-** Minus 1 Trading Platform **
+#Minus 1 Trading Platform#
 Overview
 Minus 1 Trading Platform is an innovative web-based platform designed for traders to manage their investments and monitor market activity with precision. The platform offers real-time trading functionalities, intuitive user interface design, and detailed insights into trading activities. Built with scalability and user experience in mind, it caters to both beginner and professional traders looking for an all-in-one solution for trading management.
 
