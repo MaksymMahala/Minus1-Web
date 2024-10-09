@@ -28,6 +28,6 @@ Minus 1 Trading Platform is an innovative web-based platform designed for trader
 + React.js (for web development)
 
 ## Backend Setup ## 
-Clone the repository:
-` git clone https://github.com/your-repo/minus1-trading-platform.git 
+`Clone the repository:
+git clone https://github.com/your-repo/minus1-trading-platform.git 
 `
