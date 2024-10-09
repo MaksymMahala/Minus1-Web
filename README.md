@@ -22,9 +22,11 @@ Minus 1 Trading Platform is an innovative web-based platform designed for trader
 
 ##  Installation and Setup ## 
 **Prerequisites**
-Node.js (for the backend API)
-Swift (for iOS SwiftUI app)
-Xcode (for iOS development)
-React.js (for web development)
-Backend Setup
++ Node.js (for the backend API)
++ Swift (for iOS SwiftUI app)
++ Xcode (for iOS development)
++ React.js (for web development)
+
+## Backend Setup ## 
 Clone the repository:
+> git clone https://github.com/your-repo/minus1-trading-platform.git
