@@ -1,11 +1,11 @@
 import React from 'react';
-import { FaTachometerAlt, FaWallet, FaUser, FaRegChartBar, FaBell } from 'react-icons/fa';
+import { FaTachometerAlt, FaWallet, FaUser, FaRegChartBar, FaListOl, FaBook, FaAddressBook } from 'react-icons/fa';
 import './Sidebar.css';
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2>
+      <h2 className='sidebar-title'>
         <svg
           width="25"  
           height="25" 
@@ -21,15 +21,16 @@ const Sidebar = () => {
         </svg>
         Minus1
       </h2>
-      <ul>
-        <li><FaTachometerAlt /> Dashboard</li>
-        <li><FaWallet /> Portfolio</li>
-        <li><FaRegChartBar /> Trading</li>
-        <li>Watchlist</li>
-        <li>Academy</li>
-        <li><FaUser /> Profile</li>
-        <li>Wallet</li>
-      </ul>
+
+      <div className="button-container">
+        <button><FaTachometerAlt /> Dashboard</button>
+        <button><FaAddressBook /> Portfolio</button>
+        <button><FaRegChartBar /> Trading</button>
+        <button><FaListOl />Watchlist</button>
+        <button><FaBook />Academy</button>
+        <button><FaUser /> Profile</button>
+        <button><FaWallet />Wallet</button>
+      </div>
       <div className="logout">
         <button>Logout</button>
       </div>

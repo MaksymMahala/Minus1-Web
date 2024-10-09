@@ -5,39 +5,121 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .sidebar h2 {
-    padding: 20px;
+}
+
+.sidebar-title {
+    background: linear-gradient(90deg, #10C680, #05AA63, #64EDB2, #2FDD96);
+    background-clip: text;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-fill-color: transparent;
     font-size: 24px;
-    color:green;
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar ul li {
-    padding: 15px 20px;
+    margin: 0;
+}
+
+.sidebar h2 {
+    padding: 50px;
+    font-size: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
     display: flex;
     align-items: center;
-  }
-  
-  .sidebar ul li svg {
-    margin-right: 10px;
-  }
-  
-  .logout {
-    padding: 20px;
-  }
-  
-  .logout button {
+    position: relative;
     width: 100%;
+    max-width: 220px;
+    overflow: hidden;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.07);
+}
+
+
+button::before,
+button::after {
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    transition: opacity 0.3s;
+}
+
+button::before {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: white;
+    opacity: 0;
+    z-index: -1;
+}
+
+button::after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, #10C680, #05AA63);
+    opacity: 0;
+    z-index: -2;
+}
+
+button:hover::before {
+    opacity: 1;
+}
+
+button:hover::after {
+    opacity: 1;
+}
+
+button svg {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.logout {
+    padding: 20px;
+}
+
+.logout button {
+    width: 100%;
+    border-radius: 20px;
     padding: 10px;
     background-color: #ff3d00;
     color: white;
     border: none;
     cursor: pointer;
-  }
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.logout button:hover {
+    transform: scale(1.07);
+    background-color: #ff5722;
+}
+
+
+.logout button:hover::before,
+.logout button:hover::after {
+    content: none;
+}
